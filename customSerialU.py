@@ -3,6 +3,7 @@ import serial, serial.tools.list_ports
 from PyQt5.QtWidgets import QMessageBox
 
 class customSerial(QObject): 
+//change file
     dataA = pyqtSignal(str)
 
     def __init__(self):
